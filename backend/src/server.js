@@ -11,7 +11,7 @@ const app = express()
 const PORT = process.env.PORT || 3000
 
 
-app.use("/")
+
 app.use("/api/auth", authRoutes)
 app.use("/api/messages", messageRoutes)
 
